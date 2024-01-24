@@ -1,0 +1,13 @@
+:root {
+  --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  --blue: #456ccd;
+  --dark_blue: #004aba;
+  --background: #faf6ff;
+}
+.App {
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+  background: #ffffff;
+  justify-content: center;
+  align-items: center;
+}

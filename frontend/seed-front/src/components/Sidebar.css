@@ -1,0 +1,49 @@
+.sidebar-container {
+  width: 100px;
+  height: 100vh;
+
+  /* light black - #1C1C1C */
+
+  background: #1c1c1c;
+}
+
+.sidebar {
+  height: auto;
+  padding: 0px;
+}
+
+.sidebar-logo {
+  position: relative;
+  width: 40px;
+  height: 24.49px;
+  left: 38.63px;
+  top: 57.7px;
+
+  order: 0;
+  flex-grow: 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  top: 33px;
+
+  order: 1;
+  flex-grow: 0;
+}
+.row img {
+  place-items: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  gap: 5px;
+}
+
+.row .active {
+}
+
+.icon:hover {
+  color: #c8ff88;
+}

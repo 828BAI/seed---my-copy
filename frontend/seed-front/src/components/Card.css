@@ -1,0 +1,119 @@
+.card-container {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  margin-top: 40px;
+  margin-left: 40px;
+
+  width: 424px;
+  height: 548px;
+
+  /* grey - #2D2D2D */
+
+  background: #2d2d2d;
+  border-radius: 8px;
+}
+
+.image-container img {
+  width: 424px;
+  height: 166px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.card-title {
+  width: 147px;
+  height: 34px;
+
+  /* Headline/Bold 28px */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  margin-left: 24px;
+  /* identical to box height */
+
+  /* white */
+
+  color: #ffffff;
+}
+
+.card-body {
+  width: 376px;
+  height: 60px;
+
+  /* Body/Regular 16px */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 24px;
+  margin-top: 12px;
+  /* or 125% */
+
+  /* light grey 2 - #CCCCCC */
+
+  color: #cccccc;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.investment {
+  width: 80px;
+  height: 22px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* white - #FFFFFF */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.money {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  width: 80px;
+  height: 42px;
+}
+
+.card-industries {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 376px;
+  height: 48px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

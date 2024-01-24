@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.Dashboard {
+  background: #0c0c0c;
+  width: 100vw;
+}
+
+main {
+  width: 100vw;
+  padding: 20px;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  place-items: center;
+  align-items: center;
+  margin-top: 82px;
+  gap: 5px;
+}
+.link:hover {
+  background: lightskyblue;
+  color: #000;
+  transition: all 0.5s;
+}
+.active {
+  background: lightskyblue;
+  color: #000;
+}

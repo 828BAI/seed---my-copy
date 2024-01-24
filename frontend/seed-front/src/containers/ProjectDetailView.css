@@ -1,0 +1,12 @@
+.project-content {
+  overflow-y: scroll;
+
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  left: 32px;
+  top: 122px;
+
+  background: #1c1c1c;
+  border-radius: 4px;
+}

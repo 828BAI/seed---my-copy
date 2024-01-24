@@ -1,0 +1,167 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #0c0c0c;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 199px;
+
+  position: relative;
+  width: 1132px;
+  height: 56px;
+  left: 394px;
+  top: 56px;
+}
+nav a {
+  text-decoration: none;
+  padding: 1rem;
+  color: #fff;
+}
+nav a:hover {
+  color: #c8fd88;
+}
+nav .logo {
+  position: absolute;
+  width: 170px;
+  height: 24.51px;
+  left: 0px;
+  top: 15.75px;
+}
+
+#nav-container-sign {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fillform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+  gap: 50px;
+  isolation: isolate;
+  margin-top: 50px;
+
+  position: relative;
+  width: 520px;
+  height: 702px;
+  left: 700px;
+  top: 163px;
+  background: #1c1c1c;
+  border-radius: 8px;
+}
+
+.slogan h1 {
+  width: 152px;
+  height: 48px;
+  left: 184px;
+  right: 184px;
+  margin-left: 120px;
+
+  /* Headline/Bold 40px */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+
+  /* white - #FFFFFF */
+
+  color: #ffffff;
+}
+
+.slogan p {
+  width: 400px;
+  height: 28px;
+
+  /* Body/Regular 20px */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  /* identical to box height, or 140% */
+
+  /* grey 2 - #777777 */
+
+  color: #777777;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.name,
+.last_name,
+.email,
+.password,
+.password2 {
+  width: 100%;
+  margin-top: 1em;
+}
+
+.input {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 15px;
+  position: relative;
+  top: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 400px;
+
+  color: #777777;
+  background-color: #1c1c1c;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: 1px solid black;
+  outline: none;
+}
+
+.input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.info button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  width: 140px;
+  height: 56px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  color: #0c0c0c;
+  left: 140px;
+  top: 36px;
+
+  background: #c8ff88;
+  border-radius: 0.25rem;
+}
+
+.info button:hover {
+  background: #89ce39;
+}
+.text-success {
+  color: green;
+}

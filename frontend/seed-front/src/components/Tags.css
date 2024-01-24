@@ -1,0 +1,39 @@
+.tag {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  background: #243b8d;
+  margin-left: 24px;
+
+  width: 246px;
+  height: 34px;
+}
+
+.tag p {
+  /* Caption/Upper Medium 12px */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  margin-left: 16px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+
+  /* identical to box height, or 150% */
+
+  text-transform: uppercase;
+
+  /* light grey 2 - #CCCCCC */
+
+  color: #cccccc;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

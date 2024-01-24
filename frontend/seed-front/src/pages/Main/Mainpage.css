@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.Main {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  background: #0c0c0c;
+
+  height: 100vh;
+  width: 100vw;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+nav a {
+  text-decoration: none;
+  padding: 1rem;
+  color: #fff;
+}
+nav a:hover {
+  color: #c8fd88;
+}
+nav button {
+  text-decoration: none;
+  background-color: transparent;
+
+  color: #262626;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  margin-top: 2rem;
+
+  justify-content: space-between;
+  margin-right: 1rem;
+  color: white;
+  box-sizing: border-box;
+  width: 8rem;
+  height: 3.5rem;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+}
+nav button:hover {
+  background: #ffffff;
+  color: #262626;
+}
+#nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#menu {
+  top: 1rem;
+}
+.hero-container {
+  background-image: url("../../imgs/background.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto 90%;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-container h1 {
+  font-size: 7rem;
+  line-height: 92.02%;
+  text-align: center;
+  margin-top: 120px;
+  margin-left: -50px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+
+  position: absolute;
+  width: 61rem;
+  height: 12rem;
+  left: 30rem;
+  top: 21rem;
+  text-align: center;
+  letter-spacing: -0.06em;
+}
+
+.hero-container p {
+  position: relative;
+  margin-top: 15%;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.hero-container button {
+  position: relative;
+  margin-top: 82px;
+  padding: 16px 36px;
+
+  font-size: 1.3rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  letter-spacing: 5px;
+  background: #c8ff88;
+  color: black;
+  border-radius: 5px;
+  border-style: none;
+  transition: all 0.2s;
+}
+.hero-container button:hover {
+  color: #0c0c0c;
+  background-color: #89ce39;
+  box-shadow: 0 0 5px #333;
+}
+
+@media only screen and (max-width: 760px) {
+  #nav-container {
+    display: block;
+  }
+  #menu {
+    display: flex;
+    position: absolute;
+    width: 90vw;
+    padding-top: 1rem;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 1;
+  }
+
+  main h1 {
+    font-size: 2rem;
+  }
+
+  main h2 {
+    padding-top: 4rem;
+    font-size: 1rem;
+  }
+  main button {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+}
